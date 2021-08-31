@@ -1,0 +1,15 @@
+{
+  "scripts": {
+    "dev": "concurrently \"npx esbuild --bundle index.ts --sourcemap --outfile=index.js --watch\" \"npx live-server\""
+  },
+  "dependencies": {
+    "@esotericsoftware/spine-canvas": "^4.0.2"
+  },
+  "devDependencies": {
+    "concurrently": "^6.2.1",
+    "esbuild": "^0.12.24",
+    "live-server": "^1.2.1",
+    "npx": "^10.2.2",
+    "typescript": "^4.4.2"
+  }
+}
