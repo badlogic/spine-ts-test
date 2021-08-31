@@ -1,6 +1,6 @@
 {
   "scripts": {
-    "dev": "concurrently \"npx esbuild --bundle index.ts --sourcemap --outfile=index.js --watch\" \"npx live-server\""
+    "dev": "concurrently \"npx esbuild --bundle index.ts --sourcemap --outfile=index.js --watch\" \"npx live-server --no-browser\""
   },
   "dependencies": {
     "@esotericsoftware/spine-canvas": "^4.0.2"
